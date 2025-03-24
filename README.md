@@ -1,6 +1,6 @@
-# PallyCon Multi-DRM sample for React-Native-Video
+# DoveRunner Multi-DRM sample for React-Native-Video
 
-This sample code shows how to integrate PallyCon Multi-DRM with [react-native-video](https://github.com/react-native-video/react-native-video) project. It supports streaming playback of DRM-protected contents on React Native based Android and iOS applications.
+This sample code shows how to integrate DoveRunner Multi-DRM with [react-native-video](https://github.com/react-native-video/react-native-video) project. It supports streaming playback of DRM-protected contents on React Native based Android and iOS applications.
 
  - Android: MPEG-DASH content protected by Widevine DRM
  - iOS: HLS content protected by FairPlay Streaming DRM
@@ -122,7 +122,7 @@ Apply FPS DRM integration on `App.js` file in your project by referring to this 
   - FPS content URL: Input your HLS m3u8 URL in `source > uri` parameter
   - License server URL: Input our DRM license server URL (`https://license-global.pallycon.com/ri/licenseManager.do`)
   - Certificate URL: Input your FPS cert URL with your site ID (`https://license.pallycon.com/ri/fpsKeyManager.do?siteId=Your Site ID`)
-  - DRM custom data: Input PallyCon DRM license token string as `pallycon-customdata-v2` custom header.
+  - DRM custom data: Input DoveRunner DRM license token string as `pallycon-customdata-v2` custom header.
 
 ### App.js code example
 
@@ -216,8 +216,8 @@ if self._drm != nil || self._localSourceEncryptionKeyScheme != nil {
 
 ## Useful links
 
-- [PallyCon Multi-DRM Guide Documents](https://pallycon.com/docs/en/multidrm/)
-- [PallyCon Multi-DRM License Token Guide](https://pallycon.com/docs/en/multidrm/license/license-token/)
-- [FairPlay Certificate Registration Tutorial](https://pallycon.com/docs/en/multidrm/license/fps-cert-tutorial/)
+- [DoveRunner Multi-DRM Guide Documents](https://doverunner.com/docs/en/multidrm/)
+- [DoveRunner Multi-DRM License Token Guide](https://doverunner.com/docs/en/multidrm/license/license-token/)
+- [FairPlay Certificate Registration Tutorial](https://doverunner.com/docs/en/multidrm/license/fps-cert-tutorial/)
 - [License Token Generation on DevConsole](https://sample.pallycon.com/dev/devconsole/customData.do?lang=en#create-token)
 - [react-native-video Document](https://github.com/react-native-video/react-native-video/blob/master/API.md)
