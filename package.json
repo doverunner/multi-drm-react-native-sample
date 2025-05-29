@@ -1,5 +1,5 @@
 {
-  "name": "pallycon_react_native_video",
+  "name": "doverunner_react_native_video",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,14 +10,18 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "react": "17.0.2",
-    "react-native": "0.68.2",
-    "react-native-video": "^6.0.0-beta.3"
+    "react": "18.2.0",
+    "react-native": "0.76.9",
+    "react-native-video": "6.14.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.6",
-    "@babel/runtime": "^7.18.6",
-    "@react-native-community/eslint-config": "^3.0.3",
+    "@babel/core": "^7.25.2",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli-platform-android": "15.0.1",
+    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native/babel-preset": "latest",
+    "@react-native/metro-config": "^0.79.2",
     "babel-jest": "^28.1.2",
     "eslint": "^8.19.0",
     "jest": "^28.1.2",
@@ -26,5 +30,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "packageManager": "yarn@3.6.4+sha512.e70835d4d6d62c07be76b3c1529cb640c7443f0fe434ef4b6478a5a399218cbaf1511b396b3c56eb03bc86424cff2320f6167ad2fde273aa0df6e60b7754029f"
 }

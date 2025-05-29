@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface pallycon_react_native_videoTests : XCTestCase
+@interface DoverunnerRNVTests : XCTestCase
 
 @end
 
-@implementation pallycon_react_native_videoTests
+@implementation DoverunnerRNVTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {
